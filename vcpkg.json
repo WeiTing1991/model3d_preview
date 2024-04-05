@@ -1,0 +1,5 @@
+{
+  "name": "model-3d-viewer",
+  "version-string": "0.1.0",
+  "dependencies": [ "glfw3", "glad" ,"opengl-registry" ]
+}
