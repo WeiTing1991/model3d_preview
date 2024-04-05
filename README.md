@@ -13,6 +13,14 @@ window 10, linux, MacOS
 ## **Installation**
 
 ```bash
+cd VCPKG
+./bootstrap-vcpkg.sh
+```
+
+
+
+
+```bash
 git clone --recurse-submodules -j8 https://github.com/miredirex/cmake-vcpkg-example.git
 
 # for windows

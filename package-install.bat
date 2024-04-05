@@ -2,6 +2,7 @@
 
 set "VCPKG_TARGET_TRIPLET=x64-windows"
 set "VCPKG_DIR=%CD%\VCPKG"
+set "INSTALLED_SHARED_DIR="%CD%\vcpkd_installed"
 
 REM  NOTE: https://vcpkg.io/en/packages
 REM set "PACKAGE=glfw3 glad opengl-registry imgui[opengl3-binding] implot"
