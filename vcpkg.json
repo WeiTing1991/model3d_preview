@@ -1,5 +1,14 @@
 {
   "name": "model-3d-viewer",
   "version-string": "0.1.0",
-  "dependencies": [ "glfw3", "glad" ,"opengl-registry", "imgui" ]
+  "dependencies": [
+      "glfw3",
+      "glad" ,
+      "opengl-registry",
+      "implot",
+    {
+      "name": "imgui",
+      "features": ["glfw-binding", "opengl3-binding"]
+    }
+  ]
 }

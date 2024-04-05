@@ -1,5 +1,5 @@
-#ifndef MY_LIBRARY_H
-#define MY_LIBRARY_H
+#ifndef TEST_H
+#define TEST_H
 
 void myFunction();
 
