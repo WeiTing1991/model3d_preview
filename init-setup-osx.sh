@@ -5,10 +5,18 @@ if [ -d "build" ]; then
     rm -rf ./cache
 fi
 
-mkdir -p build
+mkdir build
+
+echo "Build directory created"
+echo "Delete old bin and build files"
 
 cmake  -B build -S . -DCMAKE_TOOLCHAIN_FILE=./VCPKG/scripts/buildsystems/vcpkg.cmake
 
-cd build
+cd build || exit
 
-make  -j16
+# Build the project using make
+make
+
+echo "Build complete"
+
+./build/model_viewer

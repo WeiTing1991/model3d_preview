@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.29.1)
 
-project(cmake_template VERSION 1.0 LANGUAGES CXX)
+project(model_viewer VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_TOOLCHAIN_FILE ./VCPKG/vcpkg/scripts/buildsystems/vcpkg.cmake)
